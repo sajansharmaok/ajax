@@ -28,7 +28,7 @@ $.ajax({
             var a = data; // This line shows error.
             $.ajax({
                 type: "GET",
-                url: "time.php",
+                url: "minute.php",
                 data: 'page=' + a,
                 success: function (demo) {
 
