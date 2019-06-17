@@ -5,10 +5,10 @@
 <h1 id="demo">kida ji</h1>
 
 
-<button type="button" onclick="load()">Change</button>
+<button type="button" onclick="reset()">Change</button>
 
 <script>
-function load() {
+function reset() {
   var xhttp = new XMLHttpRequest();
   xhttp.open("GET", "text.php", false);
   xhttp.send();
